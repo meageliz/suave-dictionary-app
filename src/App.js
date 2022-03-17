@@ -5,7 +5,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">dictionary</header>
-      <Search />
+      <main>
+        <Search />
+      </main>
+      <footer>Open-source code by Meag Gardner</footer>
     </div>
   );
 }

@@ -1,16 +1,17 @@
 import "./App.css";
 import Search from "./Search";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">dictionary</header>
-      <main>
-        <Search />
-      </main>
-      <footer>Open-source code by Meag Gardner</footer>
+      <div className="container">
+        <header className="App-header">dictionary</header>
+        <main>
+          <Search />
+        </main>
+        <br />
+        <footer>Open-source code by Meag Gardner</footer>
+      </div>
     </div>
   );
 }
-
-export default App;

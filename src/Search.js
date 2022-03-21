@@ -5,7 +5,7 @@ import "./Search.css";
 
 export default function Search() {
   let [keyword, setKeyword] = useState("");
-  let [results, setResults] = useState({});
+  let [results, setResults] = useState(null);
 
   function handleResponse(response) {
     setResults(response.data[0]);

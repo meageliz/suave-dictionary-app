@@ -33,6 +33,9 @@ export default function Search() {
             autoFocus={true}
           />
         </form>
+        <div className="hint">
+          suggested words: flabbergasted, coagulate, swashbuckler...
+        </div>
       </section>
       <Results results={results} />
     </div>

@@ -13,3 +13,8 @@
   color: #333;
   border: 1px solid #ddd;
 }
+
+.Search .hint {
+  font-size: 12px;
+  margin-top: 7px;
+}

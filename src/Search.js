@@ -36,12 +36,9 @@ export default function Search(props) {
     return (
       <div className="Search">
         <section>
+          <h1>What word are you looking for?</h1>
           <form onSubmit={handleSubmit}>
-            <input
-              type="search"
-              onChange={handleKeywordChange}
-              autoFocus={true}
-            />
+            <input type="search" onChange={handleKeywordChange} />
           </form>
           <div className="hint">
             suggested words: flabbergasted, coagulate, swashbuckler...

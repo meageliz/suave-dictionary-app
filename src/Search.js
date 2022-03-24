@@ -3,8 +3,8 @@ import axios from "axios";
 import Results from "./Results";
 import "./Search.css";
 
-export default function Search() {
-  let [keyword, setKeyword] = useState("coffee");
+export default function Search(props) {
+  let [keyword, setKeyword] = useState(props.defaultKeyword);
   let [results, setResults] = useState(null);
   let [loaded, setLoaded] = useState(false);
 

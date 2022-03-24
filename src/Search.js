@@ -52,9 +52,7 @@ export default function Search(props) {
           <form onSubmit={handleSubmit}>
             <input type="search" onChange={handleKeywordChange} />
           </form>
-          <div className="hint">
-            suggested words: flabbergasted, coagulate, swashbuckler...
-          </div>
+          <div className="hint">i.e. cherry, stars, jazz...</div>
         </section>
         <Results results={results} />
         <Photos photos={photos} />

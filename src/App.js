@@ -10,7 +10,23 @@ export default function App() {
           <Search defaultKeyword="hello" />
         </main>
         <br />
-        <footer>Open-source code by Meag Gardner</footer>
+        <footer>
+          <a
+            href="https://github.com/meageliz/suave-dictionary-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-source code
+          </a>{" "}
+          by{" "}
+          <a
+            href="https://www.linkedin.com/in/meagangardner/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Meag Gardner
+          </a>
+        </footer>
       </div>
     </div>
   );

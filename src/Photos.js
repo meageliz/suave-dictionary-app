@@ -23,6 +23,6 @@ export default function Photos(props) {
       </section>
     );
   } else {
-    return null;
+    return <div>"Sorry, there are no images available for this word :("</div>;
   }
 }

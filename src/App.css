@@ -1,3 +1,11 @@
+body {
+  color: #f9f8fe;
+}
+
+a {
+  color: #9670f4;
+}
+
 .App header {
   font-size: 50px;
   margin: 50px 0 0 50px;

@@ -6,6 +6,11 @@ a {
   color: #9670f4;
 }
 
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .App header {
   font-size: 50px;
   margin: 50px 0 0 50px;
